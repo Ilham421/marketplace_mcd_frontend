@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/profile.css">
+</head>
+<body>
+    <section id="statusjaringan"></section>
+    <!-- Navbar -->
+    <div class="topnav" id="myTopnav">
+        <div class="kanan">
+            <a href="index.html">MarkD</a>
+          </div>
+      <a href="about.html">About</a>
+      <a href="product.html">Menu</a>
+      <a class="active" href="">Profile</a>
+      <a href="index.html">Home</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+
+    <!-- Banner -->
+    <div id="header">
+        <div class="logo">
+            <img src="image/banner.jpg" alt="" width="100%" height="250px">
+        </div>
+    </div>
+
+
+
+
+
+    <!-- Konten -->
+    <div id="konten">
+      <div class="owner">OWNER</div>
+        <div class="logo_profile">
+            <center>
+            <img src="image/ilham.jpeg" alt="">
+            </center>
+        </div>
+        <div class="biodata">
+            <pre>
+        Nama        : Mohama Ilham
+        Kelas       : Junior Web Programming Non Boarding 3
+        Alamat      : Pondok Afi 2, Babelan, Kab. Bekasi
+            </pre>
+        </div>
+    </div>
+
+
+
+
+    <!-- Footer -->
+    <div id="footer">
+       <div class="box-container">
+        <div class="box">
+          <h3>FIND A STORE</h3>
+          <p>BECOME A MEMBER</p>
+          <p>SIGN UP FOR EMAIL</p>
+          <p>STUDENT DISCOUNT</p>
+          <p>SEND US FEEDBACK	</p>
+        </div>
+
+        <div class="box">
+          <h3>GET HELP</h3>
+          <p>Order Status</p>
+          <p>Delevery</p>
+          <p>Payment Options</p>
+          <p>Contact Us</p>
+        </div>
+
+        <div class="box">
+          <h3>About</h3>
+          <p>News</p>
+          <p>Careers</p>
+          <p>Investors</p>
+        </div>
+
+        <div class="box center">
+          <p>Copyright &copy; Mohamad Ilham</p>
+        </div>
+        </div>
+    </div>
+    </div>
+
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+        </script>
+
+        <script src="js/cekjaringan.js"></script>
+</body>
+</html>
